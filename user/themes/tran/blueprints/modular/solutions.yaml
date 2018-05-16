@@ -1,0 +1,79 @@
+title: Solutions
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                solutions:
+                    type: tab
+                    title: THEME_X_CORPORATION.ADMIN.SOLUTIONS.LABEL
+                    fields:
+                        header.solutions:
+                            name: solutions
+                            type: list
+                            style: vertical
+                            label: THEME_X_CORPORATION.ADMIN.SOLUTIONS.LABEL
+                            fields:
+                                .title:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.SOLUTIONS.TITLE.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.SOLUTIONS.TITLE.HELP
+                                .description:
+                                    type: textarea
+                                    rows: 5
+                                    label: THEME_X_CORPORATION.ADMIN.SOLUTIONS.DESCRIPTION.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.SOLUTIONS.DESCRIPTION.HELP
+                                .icon:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.SOLUTIONS.ICON.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.SOLUTIONS.ICON.HELP
+                hows:
+                    type: tab
+                    title: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.LABEL
+                    fields:
+                        header.how_heading:
+                            type: text
+                            label: THEME_X_CORPORATION.ADMIN.HOWS.HOW_HEADING.LABEL
+                            help: THEME_X_CORPORATION.ADMIN.HOWS.HOW_HEADING.HELP
+                        header.hows:
+                            name: hows
+                            type: list
+                            style: vertical
+                            label: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.LABEL
+                            fields:
+                                .title:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.TITLE.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.TITLE.HELP
+                                .description:
+                                    type: textarea
+                                    rows: 5
+                                    label: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.DESCRIPTION.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.HOWS.HOWS.DESCRIPTION.HELP
+                whys:
+                    type: tab
+                    title: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.LABEL
+                    fields:
+                        header.why_heading:
+                            type: text
+                            label: THEME_X_CORPORATION.ADMIN.WHYS.WHY_HEADING.LABEL
+                            help: THEME_X_CORPORATION.ADMIN.WHYS.WHY_HEADING.HELP
+                        header.whys:
+                            name: whys
+                            type: list
+                            style: vertical
+                            label: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.LABEL
+                            fields:
+                                .title:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.TITLE.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.TITLE.HELP
+                                .description:
+                                    type: textarea
+                                    rows: 5
+                                    label: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.DESCRIPTION.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.WHYS.WHYS.DESCRIPTION.HELP

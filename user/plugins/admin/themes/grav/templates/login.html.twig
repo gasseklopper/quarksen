@@ -1,0 +1,11 @@
+{% set user = grav.user %}
+
+{% if user.username and user.authenticated %}
+    {% if user.authorized %}
+        {% include 'partials/login-logout.html.twig' %}
+    {% else %}
+        {% include 'partials/login-twofa.html.twig' %}
+    {% endif %}
+{% else %}
+    {% include 'partials/login-form.html.twig' %}
+{% endif %}

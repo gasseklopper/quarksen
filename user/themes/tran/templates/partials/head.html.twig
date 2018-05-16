@@ -1,0 +1,38 @@
+<title>{% if header.title %}{{ header.title }} {% else %} {{ site.title }} {% endif %}</title>
+{% block head %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include 'partials/metadata.html.twig' %}
+
+{% if favicon %}
+<link rel="icon" href="{{ url('theme://img/' ~ favicon) }}">
+{% endif %}
+
+{% block stylesheets %}
+<link href='//fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+{% do assets.add('theme://fonts/font-awesome/css/font-awesome.min.css', 101) %}
+{% do assets.add('theme://css/style.css', 101) %}
+{% do assets.add('theme://css/mobile-menu.css', 101) %}
+{% do assets.add('theme://css/custom.css', 101) %}
+ {{ assets.css() }}
+{% endblock %}
+
+{% block javascripts %}
+    {% if browser.getBrowser == 'msie' and browser.getVersion <= 9 %}
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    {% endif %}
+
+    {% do assets.addJs('jquery', 101) %}
+    {% do assets.add('theme://js/mobile-menu.js') %}
+    {% do assets.add('theme://js/flexSlider/jquery.flexslider-min.js') %}
+    {% do assets.add('theme://js/scripts.js') %}
+
+    {{ assets.js() }}
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+{% endblock %}
+{% endblock head %}

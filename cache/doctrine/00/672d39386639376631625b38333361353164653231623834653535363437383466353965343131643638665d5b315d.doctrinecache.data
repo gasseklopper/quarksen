@@ -1,0 +1,62 @@
+1526740433
+a:2:{s:7:"content";s:4063:"<h1>Say Hello to my Buttons</h1>
+<h2>successfully clicking...</h2>
+<h1>Buttons</h1>
+<p>Congratulations! You have reached the <strong>Button Section</strong> that provides a <strong>collection page</strong> of the <strong>Buttons</strong> that are included, simple <strong>button styles</strong> for <strong>actions</strong> in different <strong>types and sizes</strong> to get you started.</p>
+<button class="btn">default button</button>
+<button class="btn btn-primary">primary button</button>
+<button class="btn btn-link">link button</button>
+<hr />
+<p>Add the <code>btn</code> class to <code>&lt;a&gt;</code>, <code>&lt;input&gt;</code> or <code>&lt;button&gt;</code> elements for a default button. There are classes <code>btn-primary</code> and <code>btn-link</code> for predefined primary and link buttons.</p>
+<pre><code>---
+    &lt;button class="btn"&gt;default button&lt;/button&gt;
+
+    &lt;button class="btn btn-primary"&gt;primary button&lt;/button&gt;
+
+    &lt;button class="btn btn-link"&gt;link button&lt;/button&gt;</code></pre>
+<h1>Button Colors</h1>
+<button class="btn btn-success">success button</button>
+<button class="btn btn-error">error button</button>
+<hr />
+<p>Add the <code>btn-success</code> or <code>btn-error</code> class for success (green) or error (red) button color. If you need more button colors, please use button mixins to create your own button color variants.</p>
+<pre><code>---
+     &lt;button class="btn btn-success"&gt;success button&lt;/button&gt;
+     &lt;button class="btn btn-error"&gt;error button&lt;/button&gt;</code></pre>
+<h1>Button Sizes</h1>
+<button class="btn btn-lg">large button</button>
+<button class="btn btn-sm">small button</button>
+<button class="btn btn-block">block button</button>
+<button class="btn btn-primary btn-lg"><i class="icon icon-arrow-left"></i> large</button>
+<button class="btn btn-primary"><i class="icon icon-arrow-left"></i> normal</button>
+<button class="btn btn-primary btn-sm"><i class="icon icon-arrow-left"></i> small</button>
+<p>Add the btn-sm or btn-lg class for small or large button size. Also, you can add the btn-block class for a full-width button.</p>
+<pre><code>---
+     &lt;button class="btn btn-lg"&gt;large button&lt;/button&gt;
+     &lt;button class="btn btn-sm"&gt;small button&lt;/button&gt;
+
+     &lt;button class="btn btn-block"&gt;block button&lt;/button&gt;
+
+     &lt;button class="btn btn-primary btn-lg"&gt;&lt;i class="icon icon-arrow-left"&gt;&lt;/i&gt; large&lt;/button&gt;
+     &lt;button class="btn btn-primary"&gt;&lt;i class="icon icon-arrow-left"&gt;&lt;/i&gt; normal&lt;/button&gt;
+     &lt;button class="btn btn-primary btn-sm"&gt;&lt;i class="icon icon-arrow-left"&gt;&lt;/i&gt; small&lt;/button&gt;</code></pre>
+<p>Please note that you could use the btn-action class for a square button, or add another circle class for a round button, which is often used as a Float Action Button (FAB).</p>
+<button class="btn btn-action"><i class="icon icon-arrow-left"></i></button>
+<button class="btn btn-action circle"><i class="icon icon-arrow-left"></i></button>
+<pre><code>---
+     &lt;button class="btn btn-action"&gt;&lt;i class="icon icon-arrow-left"&gt;&lt;/i&gt;&lt;/button&gt;
+     &lt;button class="btn btn-action circle"&gt;&lt;i class="icon icon-arrow-left"&gt;&lt;/i&gt;&lt;/button&gt;</code></pre>
+<h1>Button States</h1>
+<button class="btn active">active button</button>
+<button class="btn disabled" tabindex="-1">disabled button</button>
+<button class="btn" disabled tabindex="-1">disabled button</button>
+<h1>Button Loading State</h1>
+<button class="btn loading">button</button>
+<h1>Button Group</h1>
+<div class="btn-group btn-group-block">
+  <button class="btn">first button</button>
+  <button class="btn">second button</button>
+  <button class="btn">third button</button>
+</div>
+<button class="btn btn-action btn-primary btn-lg"><i class="icon icon-menu"></i></button>
+<button class="btn btn-action btn-primary"><i class="icon icon-menu"></i></button>
+<button class="btn btn-action btn-primary btn-sm"><i class="icon icon-menu"></i></button>";s:12:"content_meta";N;}

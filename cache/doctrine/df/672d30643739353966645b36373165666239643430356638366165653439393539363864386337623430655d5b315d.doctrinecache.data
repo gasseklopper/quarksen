@@ -1,0 +1,59 @@
+1526734354
+a:2:{s:7:"content";s:1784:"<ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">one<span class="badge">1</span></a></li>
+    <li><a href="#!">two<span class="new badge">1</span></a></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+<p><a class="btn dropdown-trigger" href="#!" data-target="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></p>
+<p>Badges in Navbar
+Logo
+sass
+sass 4
+sass</p>
+<nav>
+  <div class="nav-wrapper">
+    <a href="" class="brand-logo">Logo</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="">sass</a></li>
+      <li><a href="">sass <span class="new badge">4</span></a></li>
+      <li><a href="">sass</a></li>
+    </ul>
+  </div>
+</nav>
+<p>Badges in Collapsibles
+filter_drama
+First
+4
+place
+Second
+1</p>
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header">
+      <i class="material-icons">filter_drama</i>
+      First
+      <span class="new badge">4</span></div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+  <li>
+    <div class="collapsible-header">
+      <i class="material-icons">place</i>
+      Second
+      <span class="badge">1</span></div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+</ul>
+<p>Options
+You can customize captions in many ways.</p>
+<p>Custom Caption
+Custom Badge Captions4
+Custom Badge Captions4
+You can explicitly set the caption in a badge using the  data-badge-caption attribute.</p>
+<p><span class="new badge" data-badge-caption="custom caption">4</span>
+<span class="badge" data-badge-caption="custom caption">4</span></p>
+<p>Colors
+Red4
+Blue4
+You can use our color classes to set the background-color of the badge.</p>
+<p><span class="new badge red">4</span>
+<span class="new badge blue">4</span></p>";s:12:"content_meta";N;}

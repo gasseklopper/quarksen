@@ -1,0 +1,28 @@
+title: Skills
+'@extends':
+        type: default
+
+form:
+    fields:
+        tabs:
+            type: tabs
+            active: 1
+            fields:
+                skills:
+                    type: tab
+                    title: THEME_X_CORPORATION.ADMIN.SKILLS.LABEL
+                    fields:
+                        header.skills:
+                            name: skills
+                            type: list
+                            style: vertical
+                            label: THEME_X_CORPORATION.ADMIN.SKILLS.LABEL
+                            fields:
+                                .name:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.SKILLS.NAME.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.SKILLS.NAME.HELP
+                                .percentage:
+                                    type: text
+                                    label: THEME_X_CORPORATION.ADMIN.SKILLS.PERCENTAGE.LABEL
+                                    help: THEME_X_CORPORATION.ADMIN.SKILLS.PERCENTAGE.HELP

@@ -1,0 +1,32 @@
+1526735427
+a:2:{s:7:"content";s:1519:"<pre><code> ---
+    title: My New Page
+    ---
+    # My New Page!
+
+    This is the body of **my new page** and I can easily use _Markdown_ syntax here.</code></pre>
+<button class="btn">default button</button>
+<button class="btn btn-primary">primary button</button>
+<button class="btn btn-link">link button</button>
+<button class="btn btn-success">success button</button>
+<button class="btn btn-error">error button</button>
+<button class="btn btn-lg">large button</button>
+<button class="btn btn-sm">small button</button>
+<button class="btn btn-block">block button</button>
+<button class="btn btn-primary btn-lg"><i class="icon icon-arrow-left"></i> large</button>
+<button class="btn btn-primary"><i class="icon icon-arrow-left"></i> normal</button>
+<button class="btn btn-primary btn-sm"><i class="icon icon-arrow-left"></i> small</button>
+<button class="btn btn-action"><i class="icon icon-arrow-left"></i></button>
+<button class="btn btn-action circle"><i class="icon icon-arrow-left"></i></button>
+<!-- buttons with active state -->
+<button class="btn active">active button</button>
+<!-- buttons with disabled state -->
+<button class="btn disabled" tabindex="-1">disabled button</button>
+<button class="btn" disabled tabindex="-1">disabled button</button>
+<!-- a button with loading state -->
+<button class="btn loading">button</button>
+<div class="btn-group btn-group-block">
+  <button class="btn">first button</button>
+  <button class="btn">second button</button>
+  <button class="btn">third button</button>
+</div>";s:12:"content_meta";N;}

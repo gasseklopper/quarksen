@@ -1,0 +1,43 @@
+title: Page Content
+@extends: 
+  type: default
+  context: blueprints://pages 
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          #
+          # Add your custom fields here.
+          # These fields will be available in the page's Content tab
+          # inside the Admin Panel.
+          #
+          fields:
+          
+            color:
+                type: colorpicker
+                label: Choose a color
+
+            #
+            # Custom text field
+            #
+            header.custom.textField:
+              type: text
+              label: Custom text field
+
+            #
+            # Cover image
+            #
+            header.custom.coverImage:
+              type: file
+              label: Cover image
+              destination: 'self@'
+              multiple: false
+              accept:
+                - image/*
