@@ -1,0 +1,28 @@
+1527272644
+a:2:{s:7:"content";s:1147:"<h1>Flexbox grid</h1>
+<p>Layout includes flexbox based responsive grid system with 12 columns.</p>
+<div class="container">
+  <div class="columns">
+    <div class="column col-6">col-6</div>
+    <div class="column col-3">col-3</div>
+    <div class="column col-2">col-2</div>
+    <div class="column col-1">col-1</div>
+  </div>
+
+  <div class="columns col-gapless">
+    <div class="column col-6">col-6</div>
+    <div class="column col-6">col-6</div>
+  </div>
+
+  <div class="columns col-oneline">
+    <div class="column col-8">col-8</div>
+    <div class="column col-8">col-8</div>
+  </div>
+</div>
+<hr />
+<p>Add the <code>btn</code> class to <code>&lt;a&gt;&lt;/a&gt;</code>, <code>&lt;input&gt;&lt;/input&gt;</code> or <code>&lt;button&gt;&lt;/button&gt;</code> elements for a default button. There are classes <code>btn-primary</code> and <code>btn-link</code> for predefined primary and link buttons.</p>
+<pre><code>---
+     &lt;button class="btn "&gt;button &lt;/button&gt; 
+     &lt;button class="btn btn-primary"&gt;primary button&lt;/button&gt;
+     &lt;button class="btn btn-link"&gt;link button&lt;/button&gt;</code></pre>
+<h1>Button Colors</h1>";s:12:"content_meta";N;}

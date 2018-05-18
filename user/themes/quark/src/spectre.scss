@@ -48,6 +48,9 @@
 @import "spectre/animations";
 @import "spectre/utilities";
 
+// morley classes
+@import "morley/morley";
+
 // Extras
 .search-input {
   @extend .form-input;
@@ -56,4 +59,3 @@
 .button {
   @extend .btn;
 }
-
