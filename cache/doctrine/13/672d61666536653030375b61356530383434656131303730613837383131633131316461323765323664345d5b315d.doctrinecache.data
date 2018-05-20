@@ -1,0 +1,418 @@
+1527364916
+a:2:{s:7:"content";s:19727:"
+<section id="modular-text" class="section  bg-gray">
+    <section class="container grid-lg">
+        <div class="columns text-center">
+            <div class="column col-12 col-md-12">
+                <h2>Content Unchained</h2>
+<p>No longer are you a <em>slave to your CMS</em>. Grav <strong>empowers</strong> you to create anything from a <a href="/morley/modular-home/_callout">simple one-page site</a>, a <a href="/morley/modular-home/_callout">beautiful blog</a>, a powerful and feature-rich <a href="/morley/modular-home/_callout">product site</a>, or pretty much anything you can dream up!</p>
+            </div>
+            <div class="column sameHeight col-4 col-md-12">
+
+                <div class="teaserbox">
+                  <div class="teaserbox-item">
+                    <div class="teaserbox-content">
+                      <h3>headline 1 </h3>
+                      <div class="teaserbox-image">
+                                                                                                <img alt="" src="/morley/user/pages/04.modular-home/_callout/time-to-market.svg" />
+                      </div>
+                      <p>textfield 1 Just another lorem ipsum, lorem ipsum und noch mehr lorem ipsum, hier ist noch eine lorem ipsum der content ist lorem ipsum und wir verkaufen lorem ipsums </p>
+                      <h5>markus </h5>
+                      <button class="btn btn-primary">primary button</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="column sameHeight col-4 col-md-12 ">
+              <div class="teaserbox">
+                <div class="teaserbox-item">
+                  <div class="teaserbox-content">
+                    <h3>headline 2 </h3>
+                    <div class="teaserbox-image">
+                                                                                        <img alt="" src="/morley/user/pages/04.modular-home/_callout/rettungs-ring.svg" />
+                    </div>
+                    <p class="text-left">textfield 2 Just another lorem ipsum, lorem ipsum und noch mehr lorem ipsum, hier ist noch eine lorem ipsum der content ist lorem ipsum und wir verkaufen lorem ipsums </p>
+                    <h5> </h5>
+                    <button class="btn btn-sec">primary button</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column sameHeight col-4 col-md-12">
+              <div class="teaserbox">
+                <div class="teaserbox-item">
+                  <div class="teaserbox-content">
+                    <h3>headline 3 </h3>
+                    <div class="teaserbox-image">
+                    </div>
+                    <p>textfield 3 Just another lorem ipsum, lorem ipsum und noch mehr lorem ipsum, hier ist noch eine lorem ipsum der content ist lorem ipsum und wir verkaufen lorem ipsums </p>
+                    <h5>markus 3 </h5>
+                    <button class="btn btn">primary button</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="columns">
+          <div class="column sameHeight col-6 col-md-12">
+            <div class="teaserbox">
+              <div class="teaserbox-item">
+                <div class="teaserbox-content">
+                  <h3>headline 1 </h3>
+                  <div class="teaserbox-image">
+                                                                                <img alt="" src="/morley/user/pages/04.modular-home/_callout/time-to-market.svg" />
+                  </div>
+                  <p>textfield 1 Just another lorem ipsum, lorem ipsum und noch mehr lorem ipsum, hier ist noch eine lorem ipsum der content ist lorem ipsum und wir verkaufen lorem ipsums </p>
+                  <h5>markus </h5>
+                  <button class="btn btn">primary button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column sameHeight col-6 col-md-12">
+            <div class="teaserbox">
+              <div class="teaserbox-item">
+                <div class="teaserbox-content">
+                  <figure class="avatar avatar-lg">
+                    <img src="img/avatar-2.png" alt="Avatar">
+                  </figure>
+                  <div class="teaserbox-title h5 mt-10">Bruce Banner</div>
+                  <div class="teaserbox-subtitle">THE HULK</div>
+                  <nav class="teaserbox-nav">
+                    <ul class="tab tab-block">
+                      <div class="tab-item"  >
+                        <a href="#panels" onclick="openCity(event, 'London')" id="defaultOpen" >
+                          Profile
+                        </a>
+                      </div>
+                      <li class="tab-item " onclick="openCity(event, 'Paris')" >
+                        <a href="#panels">
+                          Files
+                        </a>
+                      </li>
+                      <li class="tab-item " onclick="openCity(event, 'Tokyo')">
+                        <a href="#panels">
+                          Tasks
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <h3>headline 3 </h3>
+                          <!-- Tab links -->
+
+                  <!-- Tab content -->
+                  <div id="London" class="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                  </div>
+
+                  <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                  </div>
+
+                  <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                  </div>
+                  <div class="teaserbox-image">
+                  </div>
+                  <p>textfield 3 Just another lorem ipsum, lorem ipsum und noch mehr lorem ipsum, hier ist noch eine lorem ipsum der content ist lorem ipsum und wir verkaufen lorem ipsums </p>
+                  <h5>markus 3 </h5>
+                  <button class="btn btn">primary button</button>
+                </div>
+              </div>
+            </div>
+          </div>
+                  <div class="column sameHeight col-6 col-xs-12">
+                    <div class="panel">
+                      <div class="panel-header text-center">
+                        <figure class="avatar avatar-lg">
+                          <img src="img/avatar-2.png" alt="Avatar">
+                        </figure>
+                        <div class="panel-title h5 mt-10">Bruce Banner</div>
+                        <div class="panel-subtitle">THE HULK</div>
+                      </div>
+                      <nav class="panel-nav">
+                        <ul class="tab tab-block">
+                          <li class="tab-item active">
+                            <a href="#panels">
+                              Profile
+                            </a>
+                          </li>
+                          <li class="tab-item">
+                            <a href="#panels">
+                              Files
+                            </a>
+                          </li>
+                          <li class="tab-item">
+                            <a href="#panels">
+                              Tasks
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <div class="panel-body">
+                        <div class="tile tile-centered">
+                          <div class="tile-content">
+                            <div class="tile-title">E-mail</div>
+                            <div class="tile-subtitle">bruce.banner@hulk.com</div>
+                          </div>
+                          <div class="tile-action">
+                            <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                          </div>
+                        </div>
+                        <div class="tile tile-centered">
+                          <div class="tile-content">
+                            <div class="tile-title">Skype</div>
+                            <div class="tile-subtitle">bruce.banner</div>
+                          </div>
+                          <div class="tile-action">
+                            <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                          </div>
+                        </div>
+                        <div class="tile tile-centered">
+                          <div class="tile-content">
+                            <div class="tile-title">Location</div>
+                            <div class="tile-subtitle">Dayton, Ohio</div>
+                          </div>
+                          <div class="tile-action">
+                            <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-footer">
+                        <button class="btn btn-primary btn-block">Save</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column sameHeight col-6 col-xs-12">
+                    <div class="panel">
+                      <div class="panel-header">
+                        <div class="panel-title h6">Comments</div>
+                      </div>
+                      <div class="panel-body">
+                        <div class="tile">
+                          <div class="tile-icon">
+                            <figure class="avatar">
+                              <img src="img/avatar-1.png" alt="Avatar">
+                            </figure>
+                          </div>
+                          <div class="tile-content">
+                            <p class="tile-title">Thor Odinson</p>
+                            <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                          </div>
+                        </div>
+                        <div class="tile">
+                          <div class="tile-icon">
+                            <figure class="avatar">
+                              <img src="img/avatar-2.png" alt="Avatar">
+                            </figure>
+                          </div>
+                          <div class="tile-content">
+                            <p class="tile-title">Bruce Banner</p>
+                            <p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
+                          </div>
+                        </div>
+                        <div class="tile">
+                          <div class="tile-icon">
+                            <figure class="avatar" data-initial="TS"></figure>
+                          </div>
+                          <div class="tile-content">
+                            <p class="tile-title">Tony Stark</p>
+                            <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                          </div>
+                        </div>
+                        <div class="tile">
+                          <div class="tile-icon">
+                            <figure class="avatar">
+                              <img src="img/avatar-4.png" alt="Avatar">
+                            </figure>
+                          </div>
+                          <div class="tile-content">
+                            <p class="tile-title">Steve Rogers</p>
+                            <p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
+                          </div>
+                        </div>
+                        <div class="tile">
+                          <div class="tile-icon">
+                            <figure class="avatar">
+                              <img src="img/avatar-3.png" alt="Avatar">
+                            </figure>
+                          </div>
+                          <div class="tile-content">
+                            <p class="tile-title">Natasha Romanoff</p>
+                            <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-footer">
+                        <div class="input-group">
+                          <input type="text" class="form-input" placeholder="Hello">
+                          <button class="btn btn-primary input-group-btn">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    </section>
+</section>
+
+<div class="columns sameHeight">
+          <div class="column sameHeight col-6 col-xs-12">
+            <div class="panel">
+              <div class="panel-header text-center">
+                <figure class="avatar avatar-lg">
+                  <img src="img/avatar-2.png" alt="Avatar">
+                </figure>
+                <div class="panel-title h5 mt-10">Bruce Banner</div>
+                <div class="panel-subtitle">THE HULK</div>
+              </div>
+              <nav class="panel-nav">
+                <ul class="tab tab-block">
+                  <li class="tab-item active">
+                    <a href="#panels">
+                      Profile
+                    </a>
+                  </li>
+                  <li class="tab-item">
+                    <a href="#panels">
+                      Files
+                    </a>
+                  </li>
+                  <li class="tab-item">
+                    <a href="#panels">
+                      Tasks
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="panel-body">
+                <div class="tile tile-centered">
+                  <div class="tile-content">
+                    <div class="tile-title">E-mail</div>
+                    <div class="tile-subtitle">bruce.banner@hulk.com</div>
+                  </div>
+                  <div class="tile-action">
+                    <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                  </div>
+                </div>
+                <div class="tile tile-centered">
+                  <div class="tile-content">
+                    <div class="tile-title">Skype</div>
+                    <div class="tile-subtitle">bruce.banner</div>
+                  </div>
+                  <div class="tile-action">
+                    <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                  </div>
+                </div>
+                <div class="tile tile-centered">
+                  <div class="tile-content">
+                    <div class="tile-title">Location</div>
+                    <div class="tile-subtitle">Dayton, Ohio</div>
+                  </div>
+                  <div class="tile-action">
+                    <button class="btn btn-link btn-action btn-lg"><i class="icon icon-edit"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <button class="btn btn-primary btn-block">Save</button>
+              </div>
+            </div>
+          </div>
+          <div class="column sameHeight col-6 col-xs-12">
+            <div class="panel">
+              <div class="panel-header">
+                <div class="panel-title h6">Comments</div>
+              </div>
+              <div class="panel-body">
+                <div class="tile">
+                  <div class="tile-icon">
+                    <figure class="avatar">
+                      <img src="img/avatar-1.png" alt="Avatar">
+                    </figure>
+                  </div>
+                  <div class="tile-content">
+                    <p class="tile-title">Thor Odinson</p>
+                    <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                  </div>
+                </div>
+                <div class="tile">
+                  <div class="tile-icon">
+                    <figure class="avatar">
+                      <img src="img/avatar-2.png" alt="Avatar">
+                    </figure>
+                  </div>
+                  <div class="tile-content">
+                    <p class="tile-title">Bruce Banner</p>
+                    <p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
+                  </div>
+                </div>
+                <div class="tile">
+                  <div class="tile-icon">
+                    <figure class="avatar" data-initial="TS"></figure>
+                  </div>
+                  <div class="tile-content">
+                    <p class="tile-title">Tony Stark</p>
+                    <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                  </div>
+                </div>
+                <div class="tile">
+                  <div class="tile-icon">
+                    <figure class="avatar">
+                      <img src="img/avatar-4.png" alt="Avatar">
+                    </figure>
+                  </div>
+                  <div class="tile-content">
+                    <p class="tile-title">Steve Rogers</p>
+                    <p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
+                  </div>
+                </div>
+                <div class="tile">
+                  <div class="tile-icon">
+                    <figure class="avatar">
+                      <img src="img/avatar-3.png" alt="Avatar">
+                    </figure>
+                  </div>
+                  <div class="tile-content">
+                    <p class="tile-title">Natasha Romanoff</p>
+                    <p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <div class="input-group">
+                  <input type="text" class="form-input" placeholder="Hello">
+                  <button class="btn btn-primary input-group-btn">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London1')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris1')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo1')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London1" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris1" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo1" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+";s:12:"content_meta";N;}

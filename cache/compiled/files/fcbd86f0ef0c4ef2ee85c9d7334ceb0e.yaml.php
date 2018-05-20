@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/morley/user/config/themes/quark.yaml',
-    'modified' => 1526134969,
+    'modified' => 1526717506,
     'data' => [
         'enabled' => true,
         'production-mode' => true,

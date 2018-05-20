@@ -1,5 +1,187 @@
 .docs-block {
-    border-radius: .1rem;
-    padding: 1rem;
+    border-radius: .2rem;
+   padding: .2rem;
 
+   &__block-large
+   {
+     height: 200px;
+   }
+}
+
+.sameHeight {
+  display: flex;
+}
+
+.teaserbox {
+  border: 3px solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+
+ //background-color: red;
+}
+
+.teaserbox-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.teaserbox-content {
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: 100%;
+}
+
+.teaserbox-image {
+}
+
+.teaserbox-content p {
+	flex: 1 0 auto;
+}
+
+
+/*Flex items*/
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+	display: flex;
+  padding: 0.5em;
+	width: 100%;
+}
+
+.list-content {
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: 100%;
+}
+.list-content p {
+	flex: 1 0 auto;
+}
+
+.panel {
+  border: 3px solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+
+ //background-color: red;
+}
+
+.panel-header {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.panel-body {
+  background-color: #fff;
+  padding: 1em;
+	width: 100%;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 0 .8rem;
+}
+
+.tabcontent {
+    overflow: hidden;
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s;
+}
+
+.m-fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.m-fadeIn {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  50%,
+  55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+.bounceOut {
+  animation-duration: 0.75s;
+  animation-name: bounceOut;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  
+  animation-name: fadeInLeft;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.btn {
+  background: #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px;
 }

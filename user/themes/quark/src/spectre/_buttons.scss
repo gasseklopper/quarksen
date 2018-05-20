@@ -73,6 +73,11 @@
     }
   }
 
+
+  &.btn-sec {
+    @include button-sec();
+  }
+
   // Button Colors
   &.btn-success {
     @include button-variant($success-color);

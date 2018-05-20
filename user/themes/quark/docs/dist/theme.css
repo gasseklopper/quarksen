@@ -301,22 +301,22 @@ form .form-input[type=range]:focus {
 }
 
 #grav-login .button-wrapper button[type="submit"] {
-  background: #555530;
-  border-color: #4b4b2a;
+  background: #008171;
+  border-color: #007264;
   color: #fff;
 }
 
 #grav-login .button-wrapper button[type="submit"]:focus,
 #grav-login .button-wrapper button[type="submit"]:hover {
-  background: #454527;
-  border-color: #3b3b21;
+  background: #00685b;
+  border-color: #00584d;
   color: #fff;
 }
 
 #grav-login .button-wrapper button[type="submit"]:active,
 #grav-login .button-wrapper button[type="submit"].active {
-  background: #3e3e23;
-  border-color: #34341e;
+  background: #005d52;
+  border-color: #004e44;
   color: #fff;
 }
 
@@ -390,7 +390,7 @@ form .form-input[type=range]:focus {
 }
 
 .mobile-menu .button_container span {
-  background: #555530;
+  background: #008171;
   border: none;
   cursor: pointer; 
   height: 5px;
@@ -463,7 +463,7 @@ form .form-input[type=range]:focus {
 .treemenu li a:hover,
 .treemenu li a:focus,
 .treemenu li a.active {
-  color: #5f5f36 !important;
+  color: #00907e !important;
   text-decoration: none;
 }
 
@@ -682,7 +682,7 @@ body.sticky-footer #page-wrapper {
 .dropmenu ul li a:hover,
 .dropmenu ul li a:focus,
 .dropmenu ul li a.active {
-  color: #555530 !important;
+  color: #008171 !important;
 }
 
 .dropmenu ul li a:before {
@@ -877,7 +877,7 @@ ul.pagination {
 }
 
 #modular-features.small .column:hover .feature-icon i {
-  color: #555530;
+  color: #008171;
 }
 
 #modular-features.small .feature-icon {
@@ -920,7 +920,7 @@ ul.pagination {
 }
 
 #modular-features .column:hover .feature-icon h6 {
-  color: #555530;
+  color: #008171;
 }
 
 #modular-features .column:hover .feature-content {

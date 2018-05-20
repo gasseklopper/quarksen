@@ -6,14 +6,18 @@ form:
     tabs:
       fields:
         content:
-          fields:
-            header.media_order:
-              label: Page Media (first one will be displayed next to your content)
-            header.image_align:
-              type: select
-              label: Image position
-              classes: fancy
-              default: left
-              options:
-                'left': 'Left'
-                'right': 'Right'
+ columns:
+  type: columns
+  fields:
+    column1:
+      type: column
+      fields:
+
+        # .... subfields
+
+    column2:
+      type: column
+      fields:
+
+        # .... other subfields
+
